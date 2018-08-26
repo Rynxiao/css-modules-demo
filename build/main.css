@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	padding: 20px;
+}
+.src-styles-color__red--2S603 {
+	color: red;
+}
+
+.src-styles-color__blue--3WlK8 {
+	color: blue;
+}
+.src-styles-index__red--1ihPk {
+	color: red;
+}
+
+.src-styles-index__header--3Ukt9 {
+	font-size: 32px;
+}
+
+.src-styles-index__title--3XpLk {
+	color: green;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+}

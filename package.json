@@ -1,0 +1,33 @@
+{
+  "name": "css-modules-demo",
+  "version": "1.0.0",
+  "description": "css modules demo",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "npx webpack && open index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rynxiao/css-modules-demo.git"
+  },
+  "keywords": [
+    "css",
+    "modules"
+  ],
+  "author": "ryn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rynxiao/css-modules-demo/issues"
+  },
+  "homepage": "https://github.com/Rynxiao/css-modules-demo#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
