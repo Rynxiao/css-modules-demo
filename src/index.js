@@ -1,9 +1,10 @@
 import './styles/global.css'
-import './styles/index.css'
 
 // ==================================
 // Normal styles
 // ==================================
+
+import './styles/index.css'
 const html = `<div class="header">
 	<h2 class="title">CSS Modules</h2>
 </div>`
@@ -12,6 +13,7 @@ const html = `<div class="header">
 // CSS Modules styles
 // ==================================
 
+// import Index from './styles/index.css'
 // console.log('Index', Index)
 // const html = `<div class="${Index.header}">
 // 	<h2 class="${Index.title}">CSS Modules</h2>
