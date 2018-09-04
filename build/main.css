@@ -6,13 +6,6 @@
 .container {
 	padding: 20px;
 }
-.src-styles-color__red--2S603 {
-	color: red;
-}
-
-.src-styles-color__blue--3WlK8 {
-	color: blue;
-}
 .src-styles-index__red--1ihPk {
 	color: red;
 }
@@ -26,3 +19,11 @@
 	border-bottom: 1px solid #ccc;
 	padding-bottom: 20px;
 }
+
+/* .title {
+	color: green;
+	composes: blue from './color.css';
+	composes: red;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+} */

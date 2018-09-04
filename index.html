@@ -2,11 +2,15 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>css modules</title>
-	<link rel="stylesheet" href="./build/main.css">
+	<title><%= htmlWebpackPlugin.options.title %></title>
+	<% for (let css in htmlWebpackPlugin.files.css) { %>
+		<link href="<%=htmlWebpackPlugin.files.css[css] %>" rel="stylesheet">
+	<% } %>
 </head>
 <body>
 	<div id="container" class="container"></div>
-	<script src="./build/bundle.js"></script>
+	<% for (let chunk in htmlWebpackPlugin.files.chunks) { %>
+		<script src="<%=htmlWebpackPlugin.files.chunks[chunk].entry %>"></script>
+	<% } %>
 </body>
 </html>
