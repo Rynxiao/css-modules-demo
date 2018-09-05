@@ -5,7 +5,7 @@
   "main": "./src/index.js",
   "scripts": {
     "start": "NODE_ENV=dev webpack-dev-server",
-    "build": "npx webpack & open ./build/index.html"
+    "build": "rm -rf ./build && npx webpack"
   },
   "repository": {
     "type": "git",

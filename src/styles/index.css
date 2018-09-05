@@ -6,16 +6,16 @@
 	font-size: 32px;
 }
 
-.title {
+/* .title {
 	color: green;
 	border-bottom: 1px solid #ccc;
 	padding-bottom: 20px;
-}
+} */
 
-/* .title {
+.title {
 	color: green;
 	composes: blue from './color.css';
 	composes: red;
 	border-bottom: 1px solid #ccc;
 	padding-bottom: 20px;
-} */
+}
